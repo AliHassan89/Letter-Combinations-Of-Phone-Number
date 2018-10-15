@@ -48,8 +48,7 @@ public class LetterCombinations {
   private List<String> makeCombinations(String str, List<String> list){
     List<String> result = new ArrayList<>();
     if (list.isEmpty()) {
-      for (char c : str.toCharArray())
-        result.add(Character.toString(c));
+      result.add(str);
     }
     else{
       for (char c : str.toCharArray())
