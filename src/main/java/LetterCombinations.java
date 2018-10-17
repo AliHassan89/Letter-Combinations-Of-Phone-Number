@@ -17,6 +17,15 @@
 
  Note:
  Although the above answer is in lexicographical order, your answer could be in any order you want.
+ 
+ Time complexity analysis:
+ O(m^n) 
+ where m is max number of letters possible for one digit and n is number of digits
+ so in case of keypad it's O(4^n)
+ 
+ Space complexity:
+ O(m) 
+ m= number of unique combinations for every recursive calls
  */
 package main.java;
 
